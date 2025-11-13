@@ -23,3 +23,6 @@ SELECT * FROM WORD_SUMMARY;
 SELECT view_name FROM user_views;
 
 -- Q1
+SELECT * FROM word_rel;
+
+-- Q2
