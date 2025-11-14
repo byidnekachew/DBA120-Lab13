@@ -30,6 +30,8 @@ UPDATE word_rel
     SET syn_col = 'blithe'
     WHERE word = 'insouciant';
 
+SELECT * FROM word_rel;
+
 -- Q3
 CREATE OR REPLACE VIEW word_rel (word, syn_col, ant_col) AS
     SELECT s.word_term, s.syn_word, a.ant_word
